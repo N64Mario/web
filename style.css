@@ -7,6 +7,19 @@ body {
   text-align: center;
 }
 
+.iframenew {
+  width: 350px;
+  height: 400px;
+}
+#player {
+  height: 10px !important;
+  width: 900px;
+}
+.vp-center {
+  display: block;
+  height: max-content;
+}
+
 @media screen and (min-width: 1200px) {
   .elImage {
     width: 60% !important;
@@ -48,5 +61,15 @@ body {
   }
   .id-6Z-OxNkP-43.id-6Z-OxNkP-43 .elHeadline {
     font-size: 30px !important;
+  }
+  .iframenew {
+    width: 850px;
+    height: 700px;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  #player {
+    height: calc(57.25vw);
+    width: 900px;
   }
 }
